@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#player {
+    width: 80%;
+    max-width: 800px;
+}
+
+
+.plyr--full-ui .plyr__control--overlaid {
+    background: #2e0bcca8;
+}
+
+/* Customize the progress bar */
+.plyr--full-ui .plyr__progress__container {
+    background: #41347b00;
+}
+
+.plyr--full-ui .plyr__progress__buffer {
+    background: #5824b7;
+}
+
+.plyr--full-ui .plyr__progress__played {
+    background: #3e148d;
+}
